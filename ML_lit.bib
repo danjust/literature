@@ -29,6 +29,7 @@
   pages     = {541--551},
   groups    = {Classic literature},
   publisher = {MIT Press},
+  url       = {http://yann.lecun.com/exdb/publis/pdf/lecun-89e.pdf},
 }
 
 @Article{Coleman2017,
@@ -220,6 +221,7 @@
   pages     = {267--288},
   groups    = {Optimization, Classic literature},
   publisher = {JSTOR},
+  url       = {http://beehive.cs.princeton.edu/course/read/tibshirani-jrssb-1996.pdf},
 }
 
 @Book{Goodfellow2016,
@@ -237,6 +239,7 @@
   journal = {arXiv preprint arXiv:1712.01312},
   year    = {2017},
   groups  = {Optimization},
+  url     = {https://arxiv.org/pdf/1712.01312.pdf},
 }
 
 @Article{Han2015,
@@ -336,6 +339,7 @@
   file        = {online:http\://arxiv.org/pdf/1602.02830v3:PDF},
   groups      = {Optimization},
   keywords    = {cs.LG},
+  url         = {https://arxiv.org/pdf/1602.02830.pdf},
 }
 
 @Article{Bengio2013a,
@@ -351,6 +355,7 @@
   file        = {online:http\://arxiv.org/pdf/1305.2982v1:PDF},
   groups      = {Optimization},
   keywords    = {cs.LG},
+  url         = {https://arxiv.org/pdf/1305.2982.pdf},
 }
 
 @InProceedings{Real2017,
@@ -470,6 +475,7 @@
   file        = {online:http\://arxiv.org/pdf/1506.02626v3:PDF},
   groups      = {Optimization},
   keywords    = {cs.NE, cs.CV, cs.LG},
+  url         = {https://papers.nips.cc/paper/5784-learning-both-weights-and-connections-for-efficient-neural-network.pdf},
 }
 
 @Article{Oliver2018,
@@ -488,27 +494,87 @@
 }
 
 @Article{Tolstikhin2017,
-  author        = {Ilya Tolstikhin and Olivier Bousquet and Sylvain Gelly and Bernhard Schoelkopf},
-  title         = {Wasserstein Auto-Encoders},
-  __markedentry = {[djustus:]},
-  abstract      = {We propose the Wasserstein Auto-Encoder (WAE)---a new algorithm for building a generative model of the data distribution. WAE minimizes a penalized form of the Wasserstein distance between the model distribution and the target distribution, which leads to a different regularizer than the one used by the Variational Auto-Encoder (VAE). This regularizer encourages the encoded training distribution to match the prior. We compare our algorithm with several other techniques and show that it is a generalization of adversarial auto-encoders (AAE). Our experiments show that WAE shares many of the properties of VAEs (stable training, encoder-decoder architecture, nice latent manifold structure) while generating samples of better quality, as measured by the FID score.},
-  date          = {2017-11-05},
-  eprint        = {1711.01558v3},
-  eprintclass   = {stat.ML},
-  eprinttype    = {arXiv},
-  file          = {online:http\://arxiv.org/pdf/1711.01558v3:PDF},
-  groups        = {Optimization},
-  keywords      = {stat.ML, cs.LG},
-  url           = {http://arxiv.org/pdf/1711.01558v3},
+  author      = {Ilya Tolstikhin and Olivier Bousquet and Sylvain Gelly and Bernhard Schoelkopf},
+  title       = {Wasserstein Auto-Encoders},
+  abstract    = {We propose the Wasserstein Auto-Encoder (WAE)---a new algorithm for building a generative model of the data distribution. WAE minimizes a penalized form of the Wasserstein distance between the model distribution and the target distribution, which leads to a different regularizer than the one used by the Variational Auto-Encoder (VAE). This regularizer encourages the encoded training distribution to match the prior. We compare our algorithm with several other techniques and show that it is a generalization of adversarial auto-encoders (AAE). Our experiments show that WAE shares many of the properties of VAEs (stable training, encoder-decoder architecture, nice latent manifold structure) while generating samples of better quality, as measured by the FID score.},
+  date        = {2017-11-05},
+  eprint      = {1711.01558v3},
+  eprintclass = {stat.ML},
+  eprinttype  = {arXiv},
+  file        = {online:http\://arxiv.org/pdf/1711.01558v3:PDF},
+  groups      = {Optimization},
+  keywords    = {stat.ML, cs.LG},
+  url         = {http://arxiv.org/pdf/1711.01558v3},
 }
 
 @Article{Klein2018,
-  author        = {Klein, Aaron and Christiansen, Eric and Murphy, Kevin and Hutter, Frank},
-  title         = {Towards reproducible neural architecture and hyperparameter search},
-  year          = {2018},
+  author = {Klein, Aaron and Christiansen, Eric and Murphy, Kevin and Hutter, Frank},
+  title  = {Towards reproducible neural architecture and hyperparameter search},
+  year   = {2018},
+  groups = {Neural Architecture Search},
+  url    = {https://openreview.net/pdf?id=rJeMCSnml7},
+}
+
+@Article{LeCun2015,
+  author    = {LeCun, Yann and Bengio, Yoshua and Hinton, Geoffrey},
+  title     = {Deep learning},
+  journal   = {nature},
+  year      = {2015},
+  volume    = {521},
+  number    = {7553},
+  pages     = {436},
+  groups    = {Classic literature},
+  publisher = {Nature Publishing Group},
+  url       = {http://www.cs.princeton.edu/courses/archive/spring16/cos598F/deep-cnn-nature15.pdf},
+}
+
+@Article{Frankle2018,
+  author   = {Frankle, Jonathan and Carbin, Michael},
+  title    = {The lottery ticket hypothesis: Finding sparse, trainable neural networks},
+  journal  = {arXiv preprint arXiv:1803.03635},
+  year     = {2018},
+  groups   = {Neural Architecture Search},
+  keywords = {pruning, NAS},
+  url      = {https://arxiv.org/pdf/1803.03635.pdf},
+}
+
+@Article{Frankle2019,
+  author  = {Frankle, Jonathan and Dziugaite, Gintare Karolina and Roy, Daniel M and Carbin, Michael},
+  title   = {The Lottery Ticket Hypothesis at Scale},
+  journal = {arXiv preprint arXiv:1903.01611},
+  year    = {2019},
+  groups  = {Neural Architecture Search},
+  url     = {https://arxiv.org/pdf/1903.01611.pdf},
+}
+
+@Article{Jin2018,
+  author  = {Jin, Haifeng and Song, Qingquan and Hu, Xia},
+  title   = {Efficient neural architecture search with network morphism},
+  journal = {arXiv preprint arXiv:1806.10282},
+  year    = {2018},
+  groups  = {Neural Architecture Search},
+  url     = {https://arxiv.org/pdf/1806.10282.pdf},
+}
+
+@Article{Szegedy10,
+  author        = {Szegedy, Christian and Liu, Wei and Jia, Yangqing and Sermanet, Pierre and Reed, Scott and Anguelov, Dragomir and Erhan, Dumitru and Vanhoucke, Vincent and Rabinovich, Andrew},
+  title         = {Going deeper with convolutions, September 2014},
+  journal       = {arXiv preprint arXiv:1409.4842},
+  year          = {10},
+  __markedentry = {[djustus:]},
+  groups        = {Computer Vision},
+  url           = {https://arxiv.org/pdf/1409.4842.pdf},
+}
+
+@InProceedings{Snoek2012a,
+  author        = {Snoek, Jasper and Larochelle, Hugo and Adams, Ryan P},
+  title         = {Practical bayesian optimization of machine learning algorithms},
+  booktitle     = {Advances in neural information processing systems},
+  year          = {2012},
+  pages         = {2951--2959},
   __markedentry = {[djustus:6]},
-  groups        = {Neural Architecture Search},
-  url           = {https://openreview.net/pdf?id=rJeMCSnml7},
+  keywords      = {Bayesian Optimisation, Hyperparameter search},
+  url           = {https://papers.nips.cc/paper/4522-practical-bayesian-optimization-of-machine-learning-algorithms.pdf},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
